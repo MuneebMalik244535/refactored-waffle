@@ -1,55 +1,49 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 0.0.0 → 1.0.0
+- List of modified principles:
+    - [PRINCIPLE_1_NAME] → I. AI-Generated Content
+    - [PRINCIPLE_2_NAME] → II. Structured Academic Content
+    - [PRINCIPLE_3_NAME] → III. Docusaurus Compatibility
+    - [PRINCIPLE_4_NAME] → IV. Custom Frontend
+    - [PRINCIPLE_5_NAME] → V. Integrated Toolchain
+    - [PRINCIPLE_6_NAME] → VI. Clean File Structure
+- Added sections: None
+- Removed sections: None
+- Templates requiring updates:
+    - ✅ .specify/templates/plan-template.md
+    - ✅ .specify/templates/spec-template.md
+    - ✅ .specify/templates/tasks-template.md
+- Follow-up TODOs: None
+-->
+# AI Textbook Generator Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. AI-Generated Content
+Generate a complete, fully structured textbook using AI, where all book content must be produced chapter-wise with lessons, headings, examples, and exercises, following clean academic formatting.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Structured Academic Content
+All book content must be produced chapter-wise with lessons, headings, examples, and exercises, following clean academic formatting.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Docusaurus Compatibility
+The book must be compatible with Docusaurus Markdown format.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Custom Frontend
+Provide all code required for a custom frontend (not the default Daurus theme).
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Integrated Toolchain
+Integrating everything using Spec-Kit Plus, Gemini/Claude Code, and GitHub Pages deployment.
 
-### [PRINCIPLE_6_NAME]
+### VI. Clean File Structure
+Provide a clean file structure under /book/ including /chapters/, /components/, /layouts/, and /docs/.
 
+## Development Workflow
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+The development workflow will follow the Spec-Driven Development (SDD) methodology, using Spec-Kit Plus to manage the process. This includes stages for specification, planning, tasks, implementation (red/green/refactor), and explainers.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This Constitution is the single source of truth for project principles. All development artifacts, including specifications, plans, and code, must adhere to it. Amendments require a formal proposal and review process.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-06 | **Last Amended**: 2025-12-06
